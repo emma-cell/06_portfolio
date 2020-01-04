@@ -1,0 +1,404 @@
+/********generelt start********/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/*billeder*/
+img {
+    width: 100%;
+}
+
+
+
+header {
+    width: 100%;
+    height: 40vw;
+    background-color: white;
+    /*    position: fixed;*/
+
+}
+
+
+
+/*fonts start*/
+h1 {
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-align: center;
+
+
+}
+
+h3 {
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+
+h4 {
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 200;
+    max-width: 70ch;
+    line-height: 1.6;
+
+}
+
+/*fonts slut*/
+/*
+font-family: 'Muli',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+*/
+
+/*******generelt slut*******/
+
+
+
+
+
+/*logo og splash start*/
+
+
+/*logo skal sidde i venstre hjørne*/
+#logo {
+    margin-left: 10px;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+/*splash billede skal fylde ud og ligge i bunden*/
+#splash {
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/*logo og splash slut*/
+
+
+
+
+
+/*burger menu start*/
+
+#mylinks {
+    color: black;
+    margin: 0;
+}
+
+#burger_menu {
+    position: absolute;
+    top: -7rem;
+    right: 0.8rem;
+    font-size: 2.3rem;
+    z-index: 100;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    display: flex;
+
+}
+
+.burger_kryds {
+    font-size: 1.7rem;
+    padding: 0.1rem;
+    transform: scale(1.4, 1);
+    margin-bottom: 0;
+    color: black;
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+}
+
+#mylinks {
+    display: none;
+
+}
+
+
+#mylinks a {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+
+}
+
+
+#menu_burger_bar {
+    position: relative;
+    top: 10vw;
+    left: 0;
+    width: 100vw;
+    background: white;
+
+}
+
+#menu_burger_bar a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: right;
+
+
+
+}
+
+/*
+#burger_tema_02,
+#burger_tema_03,
+#burger_tema_04,
+#burger_tema_05,
+#burger_cv {
+    height: 5rem;
+    width: 90%;
+    margin-right: 1.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-end;
+}*/
+
+
+
+/*burger menu start*/
+
+
+/********tema_02 start********/
+
+#tema_02 {
+    margin: 5vw;
+
+}
+
+
+.col_stilart_text {
+    padding: 10px;
+    background-color: #ebeb6b;
+}
+
+.col_stilart_picture {
+    padding: 10px;
+    background-color: #ebeb6b;
+}
+
+
+#stilart_overskrift_1 {
+    text-align: left;
+}
+
+
+/*
+#stilart_beskrivelse {
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+*/
+
+/*
+#liste ul {
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+
+}
+*/
+
+#stilart_beskrivelse p {
+    text-align: left;
+}
+
+#american_magazine {
+    text-align: left;
+
+}
+
+#stilart_design_proces {
+    text-align: left;
+}
+
+/*scroll snap start*/
+/*
+.inspo_container {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(300px);
+    scroll-snap-type: y mandatory;
+    border: 10px solid white;
+
+}
+
+.scroll_picture {
+    scroll-snap-align: start;
+}
+*/
+
+/*scroll snap start*/
+
+/********tema_02 slut********/
+
+
+/***tema_03 start******/
+
+#tema_03 {
+    margin: 5vw;
+
+}
+
+.col_ux_text {
+    padding: 10px;
+    background-color: #e5d165;
+}
+
+
+.col_picture {
+    padding: 40px;
+    background-color: white;
+}
+
+.col_data_list {
+    padding: 10px;
+    background-color: #e5d165;
+}
+
+#ux_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#ux_menu a {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+#ux_beskrivelse {}
+
+#dataindsamling {}
+
+#data_list_1 li {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 200;
+    list-style-type: none;
+    max-width: 70ch;
+    line-height: 1.6;
+}
+
+#prototype {}
+
+.proto_liste li {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 200;
+    list-style-type: none;
+    max-width: 70ch;
+    line-height: 1.6;
+}
+
+
+#designsprint {}
+
+/***tema_03 slut******/
+
+
+
+/***tema_04 start******/
+
+#tema_04 {
+    margin: 10px;
+}
+
+.col_animation_text {
+    padding: 10px;
+    background-color: #ebbb4f;
+}
+
+/***tema_04 slut******/
+
+
+/***tema_05 start******/
+
+#tema_05 {
+    margin: 10px;
+}
+
+.col_redesign_text {
+    padding: 10px;
+    background-color: #fdaa57;
+}
+
+/***tema_05 slut******/
+
+
+/***cv start******/
+
+#cv {
+    text-align: center;
+}
+
+/***cv slut******/
+
+
+
+
+
+
+
+
+
+
+/*mediaquery start*/
+
+/*tablet*/
+@media only screen and (min-width: 768px) {}
+
+/*desktop*/
+@media only screen and (min-width: 992px) {}
+
+
+/*mediaquery slut*/
