@@ -1,4 +1,4 @@
-/********generelt start********/
+/*************************************generelt start************************************/
 
 
 * {
@@ -33,7 +33,7 @@ h1 {
     color: black;
     font-family: 'Muli', sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 800;
     text-align: center;
 
 }
@@ -85,13 +85,13 @@ font-family: 'Montserrat',
 sans-serif;
 */
 
-/*******generelt slut*******/
+/***************************************generelt slut**********************************/
 
 
 
 
 
-/*logo og splash start*/
+/***********************************logo og splash start********************************/
 
 
 /*logo skal sidde i venstre hjørne*/
@@ -109,13 +109,13 @@ sans-serif;
 }
 
 
-/*logo og splash slut*/
+/************************************logo og splash slut*******************************/
 
 
 
 
 
-/*burger menu start*/
+/*************************************burger menu start********************************/
 
 #mylinks {
     color: black;
@@ -175,7 +175,6 @@ sans-serif;
     text-align: right;
 
 
-
 }
 
 /*
@@ -196,10 +195,10 @@ sans-serif;
 
 
 
-/*burger menu start*/
+/**************************************burger menu start********************************/
 
 
-/********tema_02 start********/
+/****************************************tema_02 start*********************************/
 
 #tema_02 {
     margin: 5vw;
@@ -256,26 +255,14 @@ sans-serif;
 }
 
 /*scroll snap start*/
-/*
-.inspo_container {
-    scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(300px);
-    scroll-snap-type: y mandatory;
-    border: 10px solid white;
-
-}
-
-.scroll_picture {
-    scroll-snap-align: start;
-}
-*/
-
-/*scroll snap start*/
-
-/********tema_02 slut********/
 
 
-/***tema_03 start******/
+/*scroll snap sslut*/
+
+/*************************************tema_02 slut**********************************/
+
+
+/************************************tema_03 start*********************************/
 
 #tema_03 {
     margin: 5vw;
@@ -343,25 +330,50 @@ sans-serif;
 
 #designsprint {}
 
-/***tema_03 slut******/
+.sprint_liste li {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 200;
+    list-style-type: none;
+    max-width: 70ch;
+    line-height: 1.6;
+}
+
+
+/*scroll snap start*/
+
+
+/*scroll snap slut*/
 
 
 
-/***tema_04 start******/
+/****************************************tema_03 slut***********************************/
+
+
+
+
+
+/***************************************tema_04 start***********************************/
 
 #tema_04 {
     margin: 10px;
 }
+
+.animation_overskrift_1 {}
+
 
 .col_animation_text {
     padding: 10px;
     background-color: #ebbb4f;
 }
 
-/***tema_04 slut******/
+/****************************************tema_04 slut**********************************/
 
 
-/***tema_05 start******/
+
+
+/****************************************tema_05 start**********************************/
 
 #tema_05 {
     margin: 10px;
@@ -372,16 +384,51 @@ sans-serif;
     background-color: #fdaa57;
 }
 
-/***tema_05 slut******/
+.redesign_overskrift_1 {}
+
+/*************************************tema_05 slut************************************/
 
 
-/***cv start******/
+
+
+
+
+
+
+
+/************************************cv start***************************************/
 
 #cv {
-    text-align: center;
+    margin: 5vw;
 }
 
-/***cv slut******/
+.col_cv_text {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.col_mig_text {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+
+/*
+#scroll_snap {
+    background-color: white;
+    scroll-snap-type: x mandatory;
+    overflow: visible;
+    padding: 10px;
+}
+
+.#scroll_snap .picture {
+    display: inline-block;
+}
+*/
+
+
+
+/**************************************cv slut***************************************/
 
 
 
