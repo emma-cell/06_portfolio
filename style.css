@@ -316,6 +316,7 @@ sans-serif;
 
 #ux_beskrivelse {}
 
+/*
 #dataindsamling {
     scroll-snap-type: mandatory;
     scroll-snappoint: x: repeat(100vh);
@@ -334,6 +335,7 @@ sans-serif;
 #dataindsamling .data_scroll img {
     height: 100vw;
 }
+*/
 
 #data_list_1 li {
     color: black;
@@ -389,12 +391,14 @@ sans-serif;
     text-decoration: none;
 }
 
+/*
 .col_tema03_doku {
     padding: 10px;
     background-color: #e5d165;
 }
+*/
 
-.link_tema_03_dokusite {
+#link_tema_03_dokumentation.html {
     font-family: 'Muli', sans-serif;
     font-weight: 200;
     font-size: 12px;
@@ -403,11 +407,14 @@ sans-serif;
     text-decoration: none;
 }
 
+/*
 .tema_03_desktop_dokusite {
     padding: 10px;
     background-color: #e5d165;
 }
+*/
 
+/*
 .link_tema_03_desktop_dokusite {
     font-family: 'Muli', sans-serif;
     font-weight: 200;
@@ -416,6 +423,7 @@ sans-serif;
     text-decoration: none;
     text-decoration: none;
 }
+*/
 
 
 /****************************************tema_03 slut***********************************/
@@ -430,6 +438,16 @@ sans-serif;
     margin: 10px;
     padding: 10px;
 
+}
+
+
+#link_tema_04_dokumentation.html {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
 }
 
 .animation_overskrift_1 {}
@@ -487,14 +505,17 @@ sans-serif;
     text-decoration: none;
 }
 
-
-
-
 .col_drowsy {
     padding: 10px;
     background-color: #ebbb4f;
 
 }
+
+.tema_04_doku {
+    padding: 10px;
+    background-color: #ebbb4f;
+}
+
 
 /****************************************tema_04 slut**********************************/
 
@@ -542,6 +563,15 @@ sans-serif;
     text-decoration: none;
 }
 
+
+.link_redesign {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none;
+}
 
 /*************************************tema_05 slut************************************/
 
