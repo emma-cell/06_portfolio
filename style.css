@@ -9,6 +9,7 @@
 
 body {
     margin: 0;
+
 }
 
 /*billeder*/
@@ -28,6 +29,11 @@ header {
 
 }
 
+section {
+    max-width: 1200px;
+    margin-top: 25vw;
+    margin: 0 auto;
+}
 
 
 /*fonts start*/
@@ -53,7 +59,7 @@ h2 {
 h3 {
     color: black;
     font-family: 'Muli', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 200;
     text-align: center;
 
@@ -63,7 +69,7 @@ h3 {
 h4 {
     color: black;
     font-family: 'Muli', sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 200;
     text-align: center;
 
@@ -72,7 +78,7 @@ h4 {
 p {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.6rem;
+    font-size: 1rem;
     font-weight: 200;
     max-width: 70ch;
     line-height: 1.6;
@@ -101,7 +107,8 @@ sans-serif;
 #logo {
     margin-left: 10px;
     margin-right: auto;
-    width: 22%;
+    width: 23%;
+
 
 }
 
@@ -179,24 +186,7 @@ sans-serif;
     text-align: right;
     top: 25vw;
 
-
 }
-
-/*
-#burger_tema_02,
-#burger_tema_03,
-#burger_tema_04,
-#burger_tema_05,
-#burger_cv {
-    height: 5rem;
-    width: 90%;
-    margin-right: 1.3rem;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
-    align-self: flex-end;
-}*/
 
 
 
@@ -206,7 +196,8 @@ sans-serif;
 /****************************************tema_02 start*********************************/
 
 #tema_02 {
-    margin: 5vw;
+    margin: 10px;
+    padding: 10px;
 
 
 }
@@ -215,6 +206,8 @@ sans-serif;
 .col_stilart_text {
     padding: 10px;
     background-color: #ebeb6b;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -285,9 +278,8 @@ sans-serif;
 /************************************tema_03 start*********************************/
 
 #tema_03 {
-    margin: 5vw;
-
-
+    margin: 10px;
+    padding: 10px;
 }
 
 .col_ux_text {
@@ -514,6 +506,7 @@ sans-serif;
 #tema_05 {
     margin: 10px;
     padding: 10px;
+    margin-top: 20vw;
 
 }
 
@@ -563,18 +556,19 @@ sans-serif;
 /************************************cv start***************************************/
 
 #cv {
-    margin: 5vw;
-
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20vw;
 }
 
 .col_cv_text {
     padding: 10px;
-    background-color: whitesmoke;
+    background-color: darkgrey;
 }
 
 .col_mig_text {
     padding: 10px;
-    background-color: whitesmoke;
+    background-color: darkgrey;
 }
 
 
@@ -609,10 +603,10 @@ sans-serif;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
         top: 0;
         background: white;
-        align-items: flex-end;
+        align-items: center;
     }
 
     #menu_burger_bar a {
@@ -627,14 +621,54 @@ sans-serif;
         position: absolute;
         top: 0;
         height: 20vw;
+        position: fixed;
+
     }
 
     #logo {
         margin-left: 10px;
         margin-right: auto;
-        width: 10%;
+        width: 15%;
 
     }
+
+    .col_stilart_text {
+        flex-direction: column;
+
+
+    }
+
+
+    #tema_02 {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20vw;
+    }
+
+    #tema_03 {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20vw;
+    }
+
+    #tema_04 {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20vw;
+    }
+
+    #tema_05 {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20vw;
+    }
+
+    #cv {
+        margin: 10px;
+        padding: 10px;
+        margin-top: 20vw;
+    }
+
 }
 
 /*desktop*/
