@@ -10,6 +10,7 @@
 body {
     margin: 0;
 
+
 }
 
 /*billeder*/
@@ -30,7 +31,7 @@ header {
 }
 
 section {
-    max-width: 1200px;
+
     margin-top: 25vw;
     margin: 0 auto;
 }
@@ -43,6 +44,7 @@ h1 {
     font-size: 1.1rem;
     font-weight: 900;
     text-align: center;
+    margin-top: 1rem;
 
 }
 
@@ -84,15 +86,9 @@ p {
     line-height: 1.6;
     padding: 10px;
 
+
 }
 
-/*fonts slut*/
-/*
-font-family: 'Muli',
-sans-serif;
-font-family: 'Montserrat',
-sans-serif;
-*/
 
 /***************************************generelt slut**********************************/
 
@@ -161,7 +157,6 @@ sans-serif;
 
 }
 
-
 #mylinks a {
     font-family: 'Muli', sans-serif;
     font-weight: 200;
@@ -180,7 +175,6 @@ sans-serif;
 
 #menu_burger_bar a {
     color: black;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     text-align: right;
@@ -188,6 +182,20 @@ sans-serif;
 
 }
 
+
+
+#burger_tema_02,
+#burger_tema_03,
+#burger_tema_04,
+#burger_tema_05,
+#burger_cv,
+    {
+    height: 5rem;
+    margin-right: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 
 /**************************************burger menu start********************************/
@@ -242,6 +250,7 @@ sans-serif;
 }
 */
 
+
 #stilart_beskrivelse p {
     text-align: left;
 }
@@ -285,7 +294,9 @@ sans-serif;
 .col_ux_text {
     padding: 10px;
     background-color: #e5d165;
+    align-items: center
 }
+
 
 
 .col_picture {
@@ -593,12 +604,12 @@ sans-serif;
 
 .col_cv_text {
     padding: 10px;
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 .col_mig_text {
     padding: 10px;
-    background-color: darkgrey;
+    background-color: lightgray;
 }
 
 
@@ -615,7 +626,7 @@ sans-serif;
 
 
 
-/*mediaquery start*/
+/**************************************mediaquery start*********************************/
 
 /*tablet*/
 @media only screen and (min-width: 600px) {
@@ -629,18 +640,26 @@ sans-serif;
         flex-direction: row;
     }
 
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
     #menu_burger_bar {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
-        top: 0;
+        top: -40px;
         background: white;
         align-items: center;
+
     }
 
     #menu_burger_bar a {
         display: inline-block;
+        padding: 14px 16px;
     }
 
     #burger_menu {
@@ -648,9 +667,9 @@ sans-serif;
     }
 
     header {
-        position: absolute;
+
         top: 0;
-        height: 20vw;
+        height: 10vw;
         position: fixed;
 
     }
@@ -658,7 +677,7 @@ sans-serif;
     #logo {
         margin-left: 10px;
         margin-right: auto;
-        width: 15%;
+        width: 10%;
 
     }
 
@@ -701,8 +720,7 @@ sans-serif;
 
 }
 
-/*desktop*/
-@media only screen and (min-width: 992px) {}
 
+desktop @media only screen and (min-width: 992px) {}
 
-/*mediaquery slut*/
+/**************************************mediaquery slut*********************************/
