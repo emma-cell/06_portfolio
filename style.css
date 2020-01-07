@@ -185,12 +185,7 @@ p {
 
 
 
-#burger_tema_02,
-#burger_tema_03,
-#burger_tema_04,
-#burger_tema_05,
-#burger_cv,
-    {
+#burger_tema_02 #burger_tema_03 #burger_tema_04 #burger_tema_05 #burger_cv {
     height: 5rem;
     margin-right: 1.3rem;
     display: flex;
@@ -695,8 +690,8 @@ p {
 
 }
 
-
-desktop @media only screen and (min-width: 992px) {
+/*desktop*/
+@media only screen and (min-width: 992px) {
      #splash {
         background-image: url(splash/splash_desktop.png);
     }
@@ -785,6 +780,6 @@ desktop @media only screen and (min-width: 992px) {
     }
 
 }
-}
+
 
 /**************************************mediaquery slut*********************************/
